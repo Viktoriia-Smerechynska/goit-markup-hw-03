@@ -10,6 +10,12 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h1,
 h2,
 h3,
@@ -243,6 +249,11 @@ button {
   width: calc((100% - 72px) / 4);
 }
 
+.team-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -250,7 +261,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 32px;
+
   padding-bottom: 8px;
 }
 
@@ -260,7 +271,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 
 .portfolio {
@@ -325,7 +335,7 @@ button {
 }
 .footer-logo {
   display: block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
