@@ -219,18 +219,16 @@ button {
 .team {
   background-color: #f4f4fd;
   border-bottom: 1px solid #e7e9fc;
-}
-
-.team-title {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title-item {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
-  padding-bottom: 120px;
-  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .team-title {
@@ -240,6 +238,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-item {
@@ -250,8 +249,8 @@ button {
 }
 
 .team-box {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  text-align: center;
 }
 
 .team-item-title {
@@ -262,18 +261,19 @@ button {
   text-align: center;
   color: #2e2f42;
 
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
+  margin: 0;
 }
 
 .portfolio {
+  padding-top: 120px;
   padding-bottom: 120px;
   box-sizing: border-box;
 }
@@ -283,17 +283,18 @@ button {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  text-align: center;
+  padding-top: 0px;
+  margin-bottom: 72px;
 }
 
 .portfolio-title-item {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
-  box-sizing: border-box;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding: 0;
 }
 
 .portfolio-item-title {
